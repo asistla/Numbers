@@ -18,10 +18,6 @@ def check(c, primes):
     primes.append(c)
     return primes
 
-
-
-
-
 primes=[2, 3, 5]
 inp=int(input("Enter upper limit for primes:"))
 for i in range(7, inp, 2):
